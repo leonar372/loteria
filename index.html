@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Juego de Frutas</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<div class="content centered-elements">
+    <div>
+              <center><h1>APRENDE JUGANDO</h1></center>
+
+        <a href="numeros.html"><button class="btn btn--1">numeros</button></a>
+
+        <a href="animales.html"><button class="btn btn--2">animales</button></a>
+
+        <a href="colores.html"><button class="btn btn--3">colores</button></a>
+
+        </button>
+        <a href="letras.html"><button class="btn btn--4">letras</button></a>
+
+        <a href="sentidos.html"><button class="btn btn--4">sentidos</button></a>
+
+        <a href="frases.html"><button class="btn btn--4">frases</button></a>
+
+
+
+    </div>
+</div>
+
+
+
+
+<!-- CSS -->
+<!-- efectos visuales -->
+<style>
+    /*
+    ** All elements border-box
+*/
+    
+    *,
+    *:before,
+    *::after {
+        box-sizing: border-box;
+    }
+    /*
+    ** Root elemnt font size
+    ** No default margins and paddings
+*/
+    
+    html,
+    body {
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    /*
+    **root elements display block
+*/
+    
+    html,
+    body {
+        display: block;
+    }
+    /*
+    ** Body main style
+*/
+    
+    body {
+        line-height: 1.317101995;
+        scroll-behavior: smooth;
+        font-family: sans-serif;
+        background-color: #834444;
+    }
+    
+    .centered-elements {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .content {
+        background-color: #094bff;
+    }
+    
+    .btn {
+        position: relative;
+        display: inline;
+        height: 77px;
+        width: 300px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        background-color: transparent;
+        color: rgb(255, 5, 5);
+        font-size: 18px;
+        overflow: hidden;
+        transition: all 500ms ease;
+        border: 2px solid #000000;
+        margin-bottom: 40px;
+        z-index: 0;
+        font-weight: 700;
+        cursor: pointer;
+    
+    }
+    
+    .btn--1::before {
+        width: 0;
+        height: 100%;
+    }
+    
+    .btn--1:hover {
+        color: #434343;
+    }
+    
+    .btn--1:hover::before {
+        width: 100%;
+    }
+    
+    
+    .btn--2::before {
+        width: 0;
+        height: 100%;
+    }
+    
+    .btn--2:hover {
+        color: #434343;
+    }
+    
+    .btn--2:hover::before {
+        width: 100%;
+}
+    
+    .btn--3::before {
+        width: 0;
+        height: 100%;
+    }
+    
+    .btn--3:hover {
+        color: #434343;
+    }
+    
+    .btn--3:hover::before {
+        width: 100%;
+}
+    
+    .btn--4::before {
+        width: 0;
+        height: 100%;
+    }
+    
+    .btn--4:hover {
+        color: #434343;
+    }
+    
+    .btn--4:hover::before {
+        width: 100%;
+}
+    
+    .btn--5::before {
+        width: 0;
+        height: 100%;
+    }
+    
+    .btn--5:hover {
+        color: #434343;
+    }
+    
+    .btn--5:hover::before {
+        width: 100%;
+}
+    
+    .btn--6::before {
+        width: 0;
+        height: 100%;
+    }
+    
+    .btn--6:hover {
+        color: #434343;
+    }
+    
+    .btn--6:hover::before {
+        width: 100%;
+    }
+    
+
+    @keyframes shadow-pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgb(0, 255, 242);
+        }
+        100% {
+            box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0);
+        }
+    }
+</style>
+</body>
+
+</html>
